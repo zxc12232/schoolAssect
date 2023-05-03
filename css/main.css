@@ -348,6 +348,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 body {
   position: relative;
+  color: #7c7c7c;
   font-size: 10.5px;
   font-family: "Arial", "Noto Sans TC", "微軟正黑體", "sans-serif" , "serif", "FontAwesome";
   line-height: 1.2;
@@ -382,7 +383,7 @@ body {
 }
 @media only screen and (min-width: 1100px) {
   .wrapper {
-    width: 1100px;
+    width: 1140px;
   }
 }
 
@@ -474,31 +475,31 @@ body {
 @media only screen and (min-width: 768px) {
   .mainMenu-area .sideMenu {
     bottom: 0;
-    right: 14.5%;
+    right: 17.5%;
   }
 }
 @media only screen and (min-width: 1024px) {
   .mainMenu-area .sideMenu {
     bottom: 8%;
-    right: 11%;
+    right: 13%;
   }
 }
 @media only screen and (min-width: 1100px) {
   .mainMenu-area .sideMenu {
     bottom: 12%;
-    right: 9%;
+    right: 11%;
     padding: 0 20px;
   }
 }
 @media only screen and (min-width: 1600px) {
   .mainMenu-area .sideMenu {
-    right: 9.5%;
+    right: 11.5%;
   }
 }
 @media only screen and (min-width: 1920px) {
   .mainMenu-area .sideMenu {
     bottom: 10%;
-    right: 10%;
+    right: 12%;
   }
 }
 .mainMenu-area .sideMenu a {
@@ -529,7 +530,7 @@ body {
 @media only screen and (min-width: 768px) {
   .mainMenu-area .lang-area {
     bottom: 8%;
-    right: 0;
+    right: 1.5%;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -2145,14 +2146,12 @@ footer .footer-accessibility aside {
   opacity: 0.5;
 }
 .breadcrumb-area li a {
-  color: #000;
+  color: #7c7c7c;
   text-decoration: none;
-  opacity: 0.5;
 }
 .breadcrumb-area li a:hover {
   color: #f67e62;
   text-decoration: underline;
-  opacity: 1;
 }
 
 .inside-content-area {
@@ -2545,6 +2544,11 @@ footer .footer-accessibility aside {
 }
 @media only screen and (min-width: 480px) {
   .intro-and-comment dt {
+    width: 19%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .intro-and-comment dt {
     width: 11%;
   }
 }
@@ -2555,7 +2559,7 @@ footer .footer-accessibility aside {
 }
 @media only screen and (min-width: 1100px) {
   .intro-and-comment dt {
-    width: 9%;
+    width: 11%;
   }
 }
 .intro-and-comment p {
@@ -2817,20 +2821,20 @@ ul.columns-price figure {
 }
 @media only screen and (min-width: 1100px) {
   .content-detail-wrap .main-area {
+    width: 62%;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .content-detail-wrap .main-area {
     width: 60%;
   }
 }
 .content-detail-wrap .aside-area {
   position: relative;
-  width: 350px;
+  width: 90%;
   transition-duration: .5s;
   margin: 0 auto;
   z-index: 1;
-}
-@media only screen and (min-width: 480px) {
-  .content-detail-wrap .aside-area {
-    width: 100%;
-  }
 }
 @media only screen and (min-width: 768px) {
   .content-detail-wrap .aside-area {
@@ -3043,18 +3047,19 @@ button.icon-formal-course:hover .icon-note::before {
   display: block;
 }
 .package-info strong {
-  color: #000;
-  font-size: 100%;
-  font-weight: 700;
+  color: #7c7c7c;
+  font-size: 90%;
+  font-weight: 600;
+  letter-spacing: -0.5px;
 }
 .package-info small {
-  font-size: 90%;
+  font-size: 70%;
 }
 .package-info .icon-trial {
   position: relative;
   color: #f67e62;
   line-height: 1.4;
-  padding-left: 12%;
+  padding-left: 10%;
 }
 .package-info .icon-trial::before {
   content: "\e163";
@@ -3069,16 +3074,16 @@ button.icon-formal-course:hover .icon-note::before {
 }
 .package-info .icon-note {
   position: relative;
-  color: #19272e;
+  color: #7c7c7c;
   line-height: 1.4;
-  padding-left: 12%;
+  padding-left: 8%;
 }
 .package-info .icon-note::before {
   content: "\f15c";
   position: absolute;
   top: 0;
   left: 0;
-  color: #19272e;
+  color: #7c7c7c;
   font-family: "Font Awesome 6 Free";
   font-weight: 700;
   text-rendering: auto;
@@ -3141,7 +3146,7 @@ button.icon-formal-course:hover .icon-note::before {
   width: calc(100% / 2);
   flex: 0 1 auto;
   color: #adadad;
-  font-size: 160%;
+  font-size: 140%;
   font-weight: 500;
   justify-content: center;
   align-items: center;
@@ -3171,6 +3176,9 @@ button.icon-formal-course:hover .icon-note::before {
 .v-tab.active {
   color: #19272e;
 }
+.v-tab:hover {
+  color: #f67e62;
+}
 .v-tab.active::before, .v-tab:hover::before {
   content: "";
   position: absolute;
@@ -3195,7 +3203,7 @@ button.icon-formal-course:hover .icon-note::before {
 }
 .message-button button {
   width: 100%;
-  font-size: 130% !important;
+  font-size: 110% !important;
   text-align: center;
   color: #fff !important;
   background-color: #5fc4bf !important;
@@ -3299,27 +3307,22 @@ button.icon-formal-course:hover .icon-note::before {
 }
 @media only screen and (min-width: 480px) {
   .course-teacher-info .feature {
-    width: 30%;
+    width: 23%;
   }
 }
 @media only screen and (min-width: 768px) {
   .course-teacher-info .feature {
-    width: 34%;
+    width: 28%;
   }
 }
 @media only screen and (min-width: 1024px) {
   .course-teacher-info .feature {
-    width: 25%;
-  }
-}
-@media only screen and (min-width: 1100px) {
-  .course-teacher-info .feature {
-    width: 28%;
+    width: 22%;
   }
 }
 @media only screen and (min-width: 1600px) {
   .course-teacher-info .feature {
-    width: 30%;
+    width: 25%;
   }
 }
 
@@ -3407,7 +3410,8 @@ button.icon-formal-course:hover .icon-note::before {
   width: 80%;
 }
 .simple-introduction .course-teacher-name {
-  font-size: 150%;
+  color: #212121;
+  font-size: 130%;
   font-weight: 500;
   margin-bottom: 5px;
 }
@@ -3417,8 +3421,8 @@ button.icon-formal-course:hover .icon-note::before {
 }
 .simple-introduction dl {
   display: flex;
-  color: #4a4a4a;
-  font-size: 120%;
+  color: #ababab;
+  font-size: 90%;
   justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: 2.5px;
@@ -3433,7 +3437,7 @@ button.icon-formal-course:hover .icon-note::before {
 }
 @media only screen and (min-width: 1024px) {
   .simple-introduction dt {
-    width: 60px;
+    width: 45px;
   }
 }
 .simple-introduction dd {
@@ -3472,9 +3476,15 @@ button.icon-formal-course:hover .icon-note::before {
 
 .f-info {
   width: 50%;
-  font-size: 170%;
+  font-size: 150%;
   text-align: center;
   border-right: #c8c8c8 1px solid;
+}
+@media only screen and (min-width: 480px) {
+  .f-info {
+    width: 58%;
+    font-size: 130%;
+  }
 }
 @media only screen and (min-width: 768px) {
   .f-info {
@@ -3493,7 +3503,7 @@ button.icon-formal-course:hover .icon-note::before {
 .f-btn {
   display: flex;
   width: 50%;
-  color: #c8c8c8;
+  color: #7c7c7c;
   justify-content: center;
   align-items: center;
   background: transparent;
@@ -3502,15 +3512,29 @@ button.icon-formal-course:hover .icon-note::before {
   outline: none;
   border: none;
 }
+@media only screen and (min-width: 480px) {
+  .f-btn {
+    width: 42%;
+  }
+}
 .f-btn:hover, .f-btn.active {
   color: #f67e62;
 }
 .f-btn i {
-  font-size: 200%;
+  font-size: 170%;
+}
+@media only screen and (min-width: 480px) {
+  .f-btn i {
+    font-size: 150%;
+  }
 }
 .f-btn figure {
-  font-size: 150%;
-  margin-left: 2%;
+  font-size: 130%;
+}
+@media only screen and (min-width: 480px) {
+  .f-btn figure {
+    font-size: 110%;
+  }
 }
 
 .video-box {
@@ -3524,7 +3548,7 @@ button.icon-formal-course:hover .icon-note::before {
 @media only screen and (min-width: 768px) {
   .video-box {
     height: 0;
-    padding-bottom: 58%;
+    padding-bottom: 55%;
   }
 }
 
@@ -3584,19 +3608,19 @@ button.icon-formal-course:hover .icon-note::before {
   display: flex;
   justify-content: space-evenly;
   border-bottom: #dadada 1px solid;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   z-index: 0;
 }
 @media only screen and (min-width: 480px) {
   .course-nav {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 }
 .course-nav button {
   position: relative;
   width: 20%;
-  color: #656363;
-  font-size: 130%;
+  color: #7c7c7c;
+  font-size: 120%;
   font-weight: normal;
   background: transparent;
   cursor: pointer;
@@ -3607,11 +3631,11 @@ button.icon-formal-course:hover .icon-note::before {
 @media only screen and (min-width: 480px) {
   .course-nav button {
     width: 15%;
-    font-size: 140%;
+    font-size: 130%;
   }
 }
 .course-nav button:hover, .course-nav button.active {
-  color: #1f1f1f;
+  color: #212121;
 }
 .course-nav button:hover::before, .course-nav button.active::before {
   content: "";
@@ -3647,15 +3671,18 @@ button.icon-formal-course:hover .icon-note::before {
 
 .announcement-area {
   display: block;
+  width: 90%;
   border: #5fc4bf 1px solid;
   border-radius: 15px;
-  margin-bottom: 40px;
+  margin: 0 auto 15px auto;
   padding: 5px 10px;
 }
 @media only screen and (min-width: 480px) {
   .announcement-area {
     display: flex;
+    width: 100%;
     align-items: stretch;
+    margin: 0 auto 30px auto;
     padding: 15px 0;
   }
 }
@@ -3745,7 +3772,17 @@ button.icon-formal-course:hover .icon-note::before {
 }
 @media only screen and (min-width: 480px) {
   .announcement-area figure {
-    width: 87%;
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .announcement-area figure {
+    width: 84%;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .announcement-area figure {
+    width: 82%;
   }
 }
 .announcement-area a {
@@ -3802,9 +3839,11 @@ button.icon-formal-course:hover .icon-note::before {
   margin-bottom: 20px;
 }
 .class-area dt {
+  color: #7c7c7c;
   font-weight: 500;
 }
 .class-area dd {
+  color: #7c7c7c;
   font-family: "Arial", "微軟正黑體";
 }
 
@@ -3812,7 +3851,12 @@ button.icon-formal-course:hover .icon-note::before {
   position: relative;
   font-size: 160%;
   padding-left: 2%;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+}
+@media only screen and (min-width: 480px) {
+  .class-name {
+    margin-bottom: 30px;
+  }
 }
 .class-name::before {
   content: "";
@@ -3897,8 +3941,8 @@ button.icon-formal-course:hover .icon-note::before {
   padding: 0 0 5px 0;
 }
 .course-content-2 .schedule-control-area .date {
-  color: #4a4a4a;
-  font-size: 200%;
+  color: #7c7c7c;
+  font-size: 170%;
   font-weight: 600;
 }
 .course-content-2 .schedule-control-area .btn-prev, .course-content-2 .schedule-control-area .btn-next {
@@ -3992,14 +4036,15 @@ button.icon-formal-course:hover .icon-note::before {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 15px auto;
 }
 @media only screen and (min-width: 480px) {
   .evaluate-area {
-    margin: 0 auto 40px auto;
+    margin: 0 auto 30px auto;
   }
 }
 .evaluate-area figcaption {
+  color: #7c7c7c;
   font-size: 300%;
   font-weight: 700;
   margin-right: 10px;
@@ -4034,14 +4079,14 @@ button.icon-formal-course:hover .icon-note::before {
   letter-spacing: 0;
 }
 .evaluate-single figcaption {
-  font-size: 135%;
-  font-weight: 600;
+  font-size: 110%;
+  font-weight: 500;
   margin-bottom: 2.5px;
 }
 .evaluate-single figure.evaluate-article {
   display: -webkit-box;
   color: #727070;
-  font-size: 115%;
+  font-size: 100%;
   font-family: "Arial", "微軟正黑體";
   line-height: 1.6;
   margin-bottom: 5px;
@@ -4062,6 +4107,7 @@ button.icon-formal-course:hover .icon-note::before {
 .evaluate-single .evaluate-date {
   width: 80%;
   color: #aeafb0;
+  font-size: 90%;
   text-align: center;
 }
 .evaluate-single .btn-expand {
@@ -4101,12 +4147,12 @@ button.icon-formal-course:hover .icon-note::before {
   }
 }
 .course-content-4 dt {
-  font-size: 135%;
+  font-size: 115%;
   font-weight: 600;
   margin-bottom: 10px;
 }
 .course-content-4 dd {
-  font-size: 120%;
+  font-size: 100%;
   font-family: "Arial", "微軟正黑體";
   line-height: 1.6;
 }
